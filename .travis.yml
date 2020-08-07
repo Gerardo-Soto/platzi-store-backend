@@ -1,0 +1,21 @@
+language: node_js
+cache:
+        directories:
+                - node_modules
+                - ~/.npm
+node_js:
+        - '12'
+git:
+        depth: 3
+script:
+        - yarn test
+notifications:
+        slack: teamplatzigerard:t9VF4p3pixxOzJ8nCbhQerci
+deploy:
+        provide: heroku
+        skip-cleanup: true
+        keep-history: true
+        api_key: 510eebef-f99e-4c7f-85c0-6fb7d7d8e9a0 # Key Heroku
+        app: platzi-store-backend-gerard
+        on:     #git
+                repo: Gerardo-Soto/platzi-store-backend
