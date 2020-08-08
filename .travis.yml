@@ -10,12 +10,14 @@ git:
 script:
         - yarn test
 notifications:
-        slack: teamplatzigerard:t9VF4p3pixxOzJ8nCbhQerci
+        slack: 
+                secure: "HEXTkzNR7QAqme1+MDcH0ms6QTSbg8wYf4zIg6AzqqIVvQP4Z6FnBHpBGRjs2LL9eH/J7X6ctYec2GamTa7xhRj9HbEPuMGps7DRFV8VNB7H8ScY9a641yKpqst3jkZeU2J4BQqQqszfFv+9m6CRJJr6DH3PoY4nDVHHb72OMV1DNFrgBrgAm/tpYXAI0qEaM6N6S/7eq3K0cgwqLM6TOyPipp9UxeCUjscnqQyUyVN9A+MYbKvpAaa+gB8lInguU1XyVBf5tWcgxVh+ksmk5Wi1Lyk/3zS+MpQafwnOESUIre/lvsruyzKm6EqnbcufG1YoNjFJrGQTEi96M0YKnw/viZwLRoF1aJl1w7OCjapALx4LdZ40jjJMg79qTbUN/V4ZCVhSpbBmQqvSpU0Bx5zzGw2fIj/JlCyEU5Z5PlKvc89mCQSs61Q4PIrnUuiItrEYYaPnNwqPslIJS+YhQFflp8jw0C4vyyuPPa/TZi3T7LzyEXQmgNyigbQAutEPsqPDzoyNfeolnMYZrWEAE3Ah00WMpZ1WO28cO4ZhMMvIg98Dm+de0//Hzp9//F+bRkmnXmwgy+MrFsLR/Suhox2EktTA2WHCs62pNg+0zjWRiwhhg12uHBDbMxgE4jkOLazhKgPtLTJHFXVrAs0CgtAyBug6YFR36ZwCqqKPKGg="
 deploy:
         provide: heroku
         skip-cleanup: true
         keep-history: true
-        api_key: 510eebef-f99e-4c7f-85c0-6fb7d7d8e9a0 # Key Heroku
+        api_key: 
+                secure: "qAOsEv+BR4QbQFhA5jNdv8hcCsK5/AJRxzgeVpa3lP3SwbFB8rEmfPaVHxWh03aj1dhobepIJfZhs6EtPI8YUIXmDexvO2OT5IzG9tWcwul2y0meKsVNMEr0o7f2BFDWxX6QKRU9reyQ4EAyOmVzOCbz3DbLR/8LL6azkh1GE0S9GMZUNZj5zZBUw3gk/g1JQQNVzRQ9gF9+Yv+lLtSriOkFzUpmcRa6m6E60JUF2a6NLWylq4rvz8YvAOmRlvX8uz4mjbaNto2t1vKbEaKyRMNmVD5H5rOpmVDipt8qLUVuzEUPCfSe4JMeCurlzIwj2+5Umm8NphCPgA8MnTH+3KWhR6dPSCdf4aRPYEFaO2gaPKDorHbZKbCc7LhcrpNXcwzHJzRM9ZrWUhMkxGtONOf4QCNPp3EktCTQ4u6H1o8tWX5S7cjOGyohH/+Pq3dLfbC3nfgFhCxu9WVbO8S+wAULtHvAeWqmVBVCNX6OTtI4CrBWKAk37EZDFqfj3TCc0n9TP229yad/V8NCs2oJlG3GSWsPSW2qDUjV/sdMCvY0SSXJ/xY4y1MgfRW8ItbGno7Wcc7mW3uKd6RQr3faErVrzzP3jniBNWOSjTenwHj+1dvhxBvWI86OICkjK/NEE71MA6iv8y6PxDu0feJMbXIeV59DwvF9ddc9kGLdKhY="
         app: platzi-store-backend-gerard
         on:     #git
                 repo: Gerardo-Soto/platzi-store-backend
