@@ -7,7 +7,7 @@ const receiptsApi = require('./routes/receipt');
 
 app.get('/', (req, res) => {
   let userInfo = req.header("user-agent");
-  res.send(`New UserInfo: ${userInfo}`);
+  res.send(`Version 1.2 - UserInfo: ${userInfo}`);
 });
 
 productsApi(app);
